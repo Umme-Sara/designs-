@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>date and time</title>
+        <style>
+            body{
+                background-color:darkgray;
+            }
+            .clss{
+                padding: 30px;
+                color:blue;
+                font-size: 30px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+            }
+            button{
+                margin-left: 600px;
+                text-align: center;
+            }
+            .clss1{
+
+            }
+        </style>
+        <script>
+function func2(){
+var d = new Date()
+document.getElementById('id2').innerHTML = d ;
+document.getElementById('id2').style.color =  "red";
+document.getElementById('id2').style.fontFamily =  "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+}
+        </script>
+    </head>
+<body>
+<h2 class="clss">Current Month, Date and Time</h2>
+<p class="clss" > Click on the buttton to display the Current Month, Date and Time</p>
+
+    <button class="clss" onclick="func2()">Click</button> 
+    <p class="clss" id="id2">(------------------------)</p>
+</body>
+</html>
